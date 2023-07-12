@@ -12,8 +12,8 @@ terraform {
 #-----------------------------------------
 provider "aws" {
   region = "ap-southeast-2"
-  access_key = "AKIAYUVORRNO3UBEPJZK"
-  secret_key = "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"
+  access_key = var.accessKey
+  secret_key = var.secretKey
 }
 
 # s3 Bucket
