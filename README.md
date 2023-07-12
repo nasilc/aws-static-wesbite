@@ -4,6 +4,8 @@
 
 This project deploys a static html website in AWS.
 
+The deployed website can be found: https://lisan-static-website.s3.ap-southeast-2.amazonaws.com/index.html
+
 ## 🚧 Methodology
 
 This website utilises a public AWS S3 bucket to host the website. Terraform and GitHub Actions are used to provision the bucket and configure it to host the static webpage.
